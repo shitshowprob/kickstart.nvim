@@ -21,7 +21,7 @@ git clone -b main https://github.com/shitshowprob/kickstart.nvim.git ~/.config/n
 ## Windows Installation in Local
 ```
 mkdir -p $env:LOCALAPPDATA\nvim
-git clone -b main https://github.com/shitshowprob/kickstart.nvim.git -p $env:LOCALAPPDATA\nvim
+git clone -b main https://github.com/shitshowprob/kickstart.nvim.git $env:LOCALAPPDATA\nvim
 ```
 
 ## Installation
