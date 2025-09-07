@@ -14,8 +14,7 @@ A starting point for Neovim that is:
 
 ```
 mkdir -p ~/.config/nvim
-git clone -b main https://github.com/shitshowprob/kickstart.nvim.git ~/.config/nvim/
-
+git clone -b main https://github.com/shitshowprob/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 ## Windows Installation in Local
