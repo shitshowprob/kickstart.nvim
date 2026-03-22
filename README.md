@@ -10,6 +10,19 @@ A starting point for Neovim that is:
 
 **NOT** a Neovim distribution, but instead a starting point for your configuration.
 
+## Linux Installation in local
+
+```
+mkdir -p ~/.config/nvim
+git clone -b main https://github.com/shitshowprob/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+
+## Windows Installation in Local
+```
+mkdir -p $env:LOCALAPPDATA\nvim
+git clone -b main https://github.com/shitshowprob/kickstart.nvim.git $env:LOCALAPPDATA\nvim
+```
+
 ## Installation
 
 ### Install Neovim
